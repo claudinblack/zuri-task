@@ -1,0 +1,85 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: hsl(0, 0%, 95%); 
+   font-size: 15px;
+
+}
+
+
+main{
+   width:60%;
+   margin:auto;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   flex-direction:row;
+   
+}
+.sedans{
+ background-color: hsl(31, 77%, 52%);
+ padding:2em;
+ width: 100%;
+  
+}
+.suvs{
+ background-color: hsl(184, 100%, 22%);
+ padding:2em;
+ width:100%;
+}
+.luxury{
+ background-color: hsl(179, 100%, 13%);
+ padding:2em;
+ width:100%;
+}
+
+p{color: hsl(0, 0%, 100%,0.75);
+  font: 'Lexend Deca' ;
+  font-weight: 400;
+}
+
+h3{
+    color: hsl(0, 0%, 95%);
+    font: 'Big Shoulders Display';
+    font-weight: 700;
+}
+.s{
+ color: hsl(31, 77%, 52%);
+}
+.v{
+    color:hsl(184, 100%, 22%)
+}
+.l{
+    color:hsl(179, 100%, 13%)
+}
+
+button{
+    justify-content: center;
+    border-radius: 12px;
+    border-color: white;
+    width: 100px;
+    height:30px;
+    text-decoration-style: none;
+    cursor: pointer;
+}
+button.s:hover, button.s:active {background:transparent;
+    color:hsl(0, 0%, 95%)
+}
+button.v:hover, button.v:active {background:transparent;
+    color:hsl(0,0%,95%)
+}
+button.l:hover, button.l:active {background:transparent;
+     color:rgba(242, 242, 242, 0.982)
+}
+
+/* This is for making the site responsive for mobile*/
+@media screen and (width: 375px)
+
+/* This for making the site responsive for desktop*/  
+@media screen and (width:1440px)
+        
