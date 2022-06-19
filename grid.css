@@ -12,6 +12,7 @@ main{
     display:grid;
     grid-template-areas:
     'a a a b b'
+    'a a a b b'
     'c c d d d'
     'c c e e e';
     gap:8px;
