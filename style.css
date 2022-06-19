@@ -39,13 +39,13 @@ main{
 }
 
 p{color: hsl(0, 0%, 100%,0.75);
-  font: 'Lexend Deca' ;
+  font: 'Lexend Deca',sans-serif ;
   font-weight: 400;
 }
 
 h3{
     color: hsl(0, 0%, 95%);
-    font: 'Big Shoulders Display';
+    font-family: 'Big Shoulders Display';
     font-weight: 700;
 }
 .s{
@@ -78,8 +78,10 @@ button.l:hover, button.l:active {background:transparent;
 }
 
 /* This is for making the site responsive for mobile*/
-@media screen and (width: 375px)
+@media screen and (max-width: 375px){
+    *{font-size:10rem}
+}
 
 /* This for making the site responsive for desktop*/  
-@media screen and (width:1440px)
+@media screen and (max-width:1440px)
         
