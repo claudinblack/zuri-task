@@ -22,16 +22,18 @@ margin:auto
 main div{
     padding: 2em;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
 .conA{
     background-color: rgb(238, 86, 30);
     grid-area: a;
+    min-height:5rem;
 }
 .conB{
     background-color: rgb(231, 172, 9);
     grid-area: b;
+    min-height:5rem;
 }
 .conC{
     background-color: green;
